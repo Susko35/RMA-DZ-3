@@ -4,6 +4,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -46,12 +47,14 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.NameViewHo
     public static class NameViewHolder extends RecyclerView.ViewHolder{
 
         private final TextView textView;
+        private final FrameLayout frameView;
 
         public NameViewHolder(@NonNull View itemView, NameClickListener nameClickListener) {
             super(itemView);
 
             textView = itemView.findViewById(R.id.textView);
-            textView.setOnClickListener(new View.OnClickListener(){
+            frameView = itemView.findViewById(R.id.frameView);
+            frameView.setOnClickListener(new View.OnClickListener(){
                 @Override
                 public void onClick(View view){
                     Log.d(TAG,"NameViewHolder Click");
