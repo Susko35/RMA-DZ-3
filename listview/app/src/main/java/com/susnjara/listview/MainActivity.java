@@ -35,11 +35,16 @@ public class MainActivity extends AppCompatActivity implements NameClickListener
         dataList.add("prvo ime");
         dataList.add("drugo ime");
         dataList.add("trece ime");
-        dataList.add("cetvrto idwaawdme");
-        dataList.add("prvo idadwadwme");
-        dataList.add("drugo imadwawde");
-        dataList.add("trece dwawadime");
-        dataList.add("cetvrdwawdato ime");
+        dataList.add("Primjer string");
+        dataList.add("Antonio Šušnjara");
+        dataList.add("ListView");
+        dataList.add("Ivan Pero");
+        dataList.add("Mario Maric");
+        dataList.add("Jos ime");
+        dataList.add("Zadaca lv 3");
+        dataList.add("setupData");
+        dataList.add("setupRecyclerView");
+        dataList.add("Lkrterr ajjsjw");
     }
 
     private void setupRecyclerView(){
